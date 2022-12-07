@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1672C8;
+  --second-color: #CCDCF4;
+  --alternative-color: #3a90e0;
+  --text-color: #0f1924;
+  --second-text-color: #767676;
+  --text-color-light: #F9F9F9;
+  --title-color: #0f1924;
+  --body-color: #F9F9F9;
+}
+
+body {
+  background-color: var(--body-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font: 700 1.8rem 'Poppins', sans-serif;
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+
+#header {
+  border-bottom: 1px solid #E4E4E4;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+nav {
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font: 600 1.8rem 'Poppins', sans-serif;
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.logo span {
+  color: var(--primary-color);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.button {
+  text-decoration: none;
+  display: inline-flex;
+  height: 3.5rem;
+  padding: 0rem 3rem;
+  align-items: center;
+  border-radius: 0.25rem;
+  color: var(--text-color-light);
+  background-color: var(--primary-color);
+  font: 500 1rem 'DM Sans', sans-serif;
+}
+
+.button:hover {
+  background-color: var(--alternative-color);
+  transition: 0.3s;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+#home {
+  overflow: hidden;
+}
+
+#home .container {
+  margin: 0;
+}
+
+#home .image {
+  position: relative;
+}
+
+#home .image::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--second-color);
+  top: -15%;
+  left: 5%;
+  z-index: 0;
+}
+
+#home .image img {
+  position: relative;
+  right: 2.5rem;
+}
+
+#home .image img,
+#home .image::before {
+  border-radius: 0.30rem;
+}
+
+#home .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+#home .text h1 {
+  margin-bottom: 1rem;
+}
+
+#home .text p {
+  font-family: 400 1rem 'DM Sans', sans-serif;
+  margin-bottom: 3rem;
+  color: var(--second-text-color);
+}
+
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(270deg, rgba(105, 156, 185, 0.5) 0%, rgba(204, 244, 230, 0.34) 100%);
+}

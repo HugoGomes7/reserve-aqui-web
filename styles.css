@@ -13,6 +13,8 @@
   --text-color-light: #F9F9F9;
   --title-color: #0f1924;
   --body-color: #F9F9F9;
+
+  --header-height: 4.5rem;
 }
 
 body {
@@ -31,13 +33,24 @@ h1 {
   border-bottom: 1px solid #E4E4E4;
   margin-bottom: 2rem;
   display: flex;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: var(--body-color);
 }
 
 nav {
-  height: 4.5rem;
+  height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.main {
+  margin-top: var(--header-height);
 }
 
 .logo {

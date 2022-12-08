@@ -42,15 +42,15 @@ body {
   background-color: var(--body-color);
 }
 
-nav {
-  height: var(--header-height);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.container {
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
-.main {
-  margin-top: var(--header-height);
+.grid {
+  display: grid;
+  gap: 2rem;
 }
 
 .logo {
@@ -63,37 +63,20 @@ nav {
   color: var(--primary-color);
 }
 
+nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  margin-top: var(--header-height);
+}
+
 img {
   width: 100%;
   height: auto;
-}
-
-.container {
-  width: 100%;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.button {
-  text-decoration: none;
-  display: inline-flex;
-  height: 3.5rem;
-  padding: 0rem 3rem;
-  align-items: center;
-  border-radius: 0.25rem;
-  color: var(--text-color-light);
-  background-color: var(--primary-color);
-  font: 500 1rem 'DM Sans', sans-serif;
-}
-
-.button:hover {
-  background-color: var(--alternative-color);
-  transition: 0.3s;
-}
-
-.grid {
-  display: grid;
-  gap: 2rem;
 }
 
 .section {
@@ -147,6 +130,23 @@ img {
   font-family: 400 1rem 'DM Sans', sans-serif;
   margin-bottom: 3rem;
   color: var(--second-text-color);
+}
+
+.button {
+  text-decoration: none;
+  display: inline-flex;
+  height: 3.5rem;
+  padding: 0rem 3rem;
+  align-items: center;
+  border-radius: 0.25rem;
+  color: var(--text-color-light);
+  background-color: var(--primary-color);
+  font: 500 1rem 'DM Sans', sans-serif;
+}
+
+.button:hover {
+  background-color: var(--alternative-color);
+  transition: 0.3s;
 }
 
 .divider-1 {

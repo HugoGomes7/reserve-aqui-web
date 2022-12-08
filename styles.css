@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 :root {
   --primary-color: #1672C8;
   --second-color: #CCDCF4;
@@ -46,6 +50,9 @@ body {
   margin-top: calc(var(--header-height) + 2rem);
 }
 
+.section {
+  padding: 5rem 0;
+}
 
 .container {
   width: 100%;
@@ -75,13 +82,44 @@ nav {
   align-items: center;
 }
 
+nav .menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav.show .menu {
+  opacity: 1;
+  visibility: visible;
+
+  background: var(--body-color);
+  height: 100vh;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav.show .menu {
+  display: grid;
+  place-content: center;
+}
+
+nav.show ul.grid {
+  gap: 4rem;
+}
+
 img {
   width: 100%;
   height: auto;
-}
-
-.section {
-  padding: 5rem 0;
 }
 
 #home {

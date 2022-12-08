@@ -42,6 +42,11 @@ body {
   background-color: var(--body-color);
 }
 
+.main {
+  margin-top: calc(var(--header-height) + 2rem);
+}
+
+
 .container {
   width: 100%;
   margin-left: 1.5rem;
@@ -68,10 +73,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.main {
-  margin-top: var(--header-height);
 }
 
 img {

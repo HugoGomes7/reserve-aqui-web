@@ -22,7 +22,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1 {
+.title {
   font: 700 1.8rem 'Poppins', sans-serif;
   color: var(--title-color);
   -webkit-font-smoothing: auto;

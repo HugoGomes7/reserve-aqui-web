@@ -164,6 +164,30 @@ img {
   height: auto;
 }
 
+.button {
+  text-decoration: none;
+  display: inline-flex;
+  height: 3.5rem;
+  padding: 0rem 3rem;
+  align-items: center;
+  border-radius: 0.25rem;
+  color: var(--text-color-light);
+  background-color: var(--primary-color);
+  font: 500 1rem 'DM Sans', sans-serif;
+}
+
+.button:hover {
+  background-color: var(--alternative-color);
+  transition: 0.3s;
+}
+
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(270deg, rgba(105, 156, 185, 0.5) 0%, rgba(204, 244, 230, 0.34) 100%);
+}
+
+/* Home section */
+
 #home {
   overflow: hidden;
 }
@@ -213,24 +237,10 @@ img {
   color: var(--second-text-color);
 }
 
-.button {
-  text-decoration: none;
-  display: inline-flex;
-  height: 3.5rem;
-  padding: 0rem 3rem;
-  align-items: center;
-  border-radius: 0.25rem;
-  color: var(--text-color-light);
-  background-color: var(--primary-color);
-  font: 500 1rem 'DM Sans', sans-serif;
-}
+/* Services section */
 
-.button:hover {
-  background-color: var(--alternative-color);
-  transition: 0.3s;
-}
+/* App section */
 
-.divider-1 {
-  height: 1px;
-  background: linear-gradient(270deg, rgba(105, 156, 185, 0.5) 0%, rgba(204, 244, 230, 0.34) 100%);
-}
+/* Depositions section */
+
+/* Contact section */

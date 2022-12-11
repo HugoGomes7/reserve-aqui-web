@@ -374,26 +374,26 @@ img {
   text-align: left;
 }
 
-/* =========== DEPOSITIONS ===========*/
+/* =========== testimonials ===========*/
 
-#depositions {
+#testimonials {
   background: var(--body-color);
   margin-right: 1.5rem;
 }
 
-#depositions blockquote {
+#testimonials blockquote {
   padding: 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: .25rem;
 }
 
-#depositions blockquote p {
+#testimonials blockquote p {
   position: relative;
   text-indent: 1.8rem;
   margin-bottom: 1.5rem;
 }
 
-#depositions blockquote p span {
+#testimonials blockquote p span {
   font: 700 3rem serif;
   position: absolute;
   top: -1rem;
@@ -401,14 +401,14 @@ img {
   color: var(--primary-color);
 }
 
-#depositions cite {
+#testimonials cite {
   display: flex;
   align-items: center;
   font-style: normal;
   color: var(--second-text-color);
 }
 
-#depositions cite img {
+#testimonials cite img {
   width: 2rem;
   height: 2rem;
   object-fit: cover;

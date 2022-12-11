@@ -17,6 +17,10 @@
   --header-height: 4.5rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--body-color);
   -webkit-font-smoothing: antialiased;

@@ -282,7 +282,7 @@ img {
   color: var(--second-text-color);
 }
 
-/* =========== SERVICES and BENEFITS ===========*/
+/* =========== SERVICES, BENEFITS ===========*/
 
 #services,
 #benefits {
@@ -374,6 +374,46 @@ img {
   text-align: left;
 }
 
-/* Depositions section */
+/* =========== DEPOSITIONS ===========*/
+
+#depositions {
+  background: var(--body-color);
+  margin-right: 1.5rem;
+}
+
+#depositions blockquote {
+  padding: 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: .25rem;
+}
+
+#depositions blockquote p {
+  position: relative;
+  text-indent: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+#depositions blockquote p span {
+  font: 700 3rem serif;
+  position: absolute;
+  top: -1rem;
+  left: -1.75rem;
+  color: var(--primary-color);
+}
+
+#depositions cite {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  color: var(--second-text-color);
+}
+
+#depositions cite img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  clip-path: circle();
+  margin-right: 0.5rem;
+}
 
 /* Contact section */

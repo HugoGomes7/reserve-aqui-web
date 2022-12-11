@@ -282,9 +282,10 @@ img {
   color: var(--second-text-color);
 }
 
-/* =========== SERVICES SECTION ===========*/
+/* =========== SERVICES and BENEFITS ===========*/
 
-#services {
+#services,
+#benefits {
   margin-right: 1.5rem;
 }
 
@@ -308,12 +309,20 @@ img {
   text-align: center;
 }
 
+.card .icon .icon-plans {
+  width: 21rem;
+  height: 11rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
 
-/* =========== APP SECTION ===========*/
+/* =========== APP ===========*/
 
 #app {
   background: white;
@@ -364,7 +373,6 @@ img {
   color: var(--second-text-color);
   text-align: left;
 }
-
 
 /* Depositions section */
 

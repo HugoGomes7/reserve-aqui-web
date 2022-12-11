@@ -14,3 +14,10 @@ for (const link of links) {
     nav.classList.remove('show');
   })
 }
+
+const header = document.querySelector('#header');
+const navHeight = header.offsetHeight;
+
+window.addEventListener('scroll', function () {
+  window.scrollY >= navHeight ? header.classList.add('scroll') : header.classList.remove('scroll')
+})

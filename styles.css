@@ -15,6 +15,7 @@
   --body-color: #F9F9F9;
 
   --header-height: 4.5rem;
+
 }
 
 html {
@@ -76,7 +77,6 @@ body {
 }
 
 .container {
-  width: 100%;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -374,11 +374,23 @@ img {
   text-align: left;
 }
 
-/* =========== testimonials ===========*/
+/* =========== TESTIMONIALS ===========*/
 
 #testimonials {
   background: var(--body-color);
   margin-right: 1.5rem;
+  overflow: hidden;
+}
+
+#testimonials header {
+  margin-bottom: 0;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#testimonials .container {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #testimonials blockquote {
@@ -415,5 +427,24 @@ img {
   clip-path: circle();
   margin-right: 0.5rem;
 }
+
+/* Swiper */
+
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary-color);
+}
+
+
+
 
 /* Contact section */

@@ -21,3 +21,15 @@ const navHeight = header.offsetHeight;
 window.addEventListener('scroll', function () {
   window.scrollY >= navHeight ? header.classList.add('scroll') : header.classList.remove('scroll')
 })
+
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  mousewheel: true,
+  keyboard: true,
+});
+
+

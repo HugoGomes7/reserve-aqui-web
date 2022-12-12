@@ -445,7 +445,43 @@ img {
   background: var(--primary-color);
 }
 
-
-
-
 /* Contact section */
+
+#contact .grid {
+  gap: 4rem;
+}
+
+#contact .links {
+  display: grid;
+  justify-content: start;
+}
+
+#contact .text p {
+  color: var(--second-text-color);
+  margin-bottom: 1.5rem;
+}
+
+#contact .button {
+  padding: 0rem 1.6rem;
+}
+
+#contact .button img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#contact .links img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+#contact .links .icon-contact {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+#contact .links span {
+  color: var(--second-text-color);
+}

@@ -485,3 +485,39 @@ img {
 #contact .links span {
   color: var(--second-text-color);
 }
+
+/* =========== FOOTER ===========*/
+
+footer {
+  background: var(--primary-color);
+}
+
+footer .logo {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+footer .icon-footer {
+  align-items: center;
+  display: inline-flex;
+}
+
+footer .icon-footer .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 2rem;
+}
+
+footer .brand p {
+  color: var(--body-color);
+  font: 400 1rem 'DM Sans', sans-serif;
+  margin-bottom: 0.75rem;
+}
+
+footer .brand span {
+  color: var(--body-color);
+}
+
+footer .social {
+  margin-bottom: 3.4rem;
+}

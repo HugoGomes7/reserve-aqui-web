@@ -521,3 +521,12 @@ footer .brand span {
 footer .social {
   margin-bottom: 3.4rem;
 }
+
+footer .social a {
+  transition: 0.3s;
+  display: inline-block;
+}
+
+footer .social a:hover {
+  transform: translateY(-8px);
+}

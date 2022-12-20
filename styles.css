@@ -493,7 +493,7 @@ footer {
 }
 
 footer .logo {
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -509,7 +509,7 @@ footer .icon-footer .icon {
 }
 
 footer .brand p {
-  color: var(--body-color);
+  color: var(--text-color-light);
   font: 400 1rem 'DM Sans', sans-serif;
   margin-bottom: 0.75rem;
 }

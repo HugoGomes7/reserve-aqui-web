@@ -52,3 +52,6 @@ sr.reveal('#testimonials header, #testimonials .testimonials', {
 sr.reveal('#contact .text, #contact .links', {
   duration: 700,
 })
+sr.reveal('#footer .brand, #footer .social', {
+  duration: 700,
+})

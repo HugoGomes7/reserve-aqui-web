@@ -15,13 +15,6 @@ for (const link of links) {
   })
 }
 
-const header = document.querySelector('#header');
-const navHeight = header.offsetHeight;
-
-window.addEventListener('scroll', function () {
-  window.scrollY >= navHeight ? header.classList.add('scroll') : header.classList.remove('scroll')
-})
-
 const swiper = new Swiper('.swiper', {
   slidesPerView: 1,
   // If we need pagination
@@ -56,7 +49,20 @@ sr.reveal('#footer .brand, #footer .social', {
   duration: 700,
 })
 
-const backToTopButton = document.querySelector('.back-to-top')
+function changeHeaderWhenScroll() {
+  const header = document.querySelector('#header');
+  const navHeight = header.offsetHeight;
+  window.scrollY >= navHeight ? header.classList.add('scroll') : header.classList.remove('scroll')
+}
+
+function backToTop() {
+  const backToTopButton = document.querySelector('.back-to-top')
+  window.addEventListener('scroll', function () {
+    window.scrollY >= 100 ? backToTopButton.classList.add('show') : backToTopButton.classList.remove('show')
+  })
+}
+
 window.addEventListener('scroll', function () {
-  window.scrollY >= 100 ? backToTopButton.classList.add('show') : backToTopButton.classList.remove('show')
+  changeHeaderWhenScroll();
+  backToTop();
 })

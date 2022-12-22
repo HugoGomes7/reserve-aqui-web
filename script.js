@@ -55,3 +55,8 @@ sr.reveal('#contact .text, #contact .links', {
 sr.reveal('#footer .brand, #footer .social', {
   duration: 700,
 })
+
+const backToTopButton = document.querySelector('.back-to-top')
+window.addEventListener('scroll', function () {
+  window.scrollY >= 100 ? backToTopButton.classList.add('show') : backToTopButton.classList.remove('show')
+})

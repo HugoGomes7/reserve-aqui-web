@@ -48,6 +48,11 @@
     text-align: left;
   }
 
+  #app .container {
+    margin: 0 auto;
+    grid-auto-flow: column;
+  }
+
 }
 
 @media (min-width: 992px) {

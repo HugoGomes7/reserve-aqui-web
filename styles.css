@@ -297,14 +297,8 @@ img {
 
 /* =========== SERVICES, BENEFITS ===========*/
 
-#services,
-#benefits {
-  margin-right: 1.5rem;
-}
-
 .cards.grid {
   gap: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 .card {

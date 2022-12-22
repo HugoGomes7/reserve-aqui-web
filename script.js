@@ -28,25 +28,25 @@ const swiper = new Swiper('.swiper', {
 window.sr = ScrollReveal({ reset: true });
 
 sr.reveal('#home .image, #home .text', {
-  duration: 700,
+  duration: 600,
 })
 sr.reveal('#services header, #services .card', {
-  duration: 700,
+  duration: 600,
 })
 sr.reveal('#benefits header, #benefits .card', {
-  duration: 700,
+  duration: 600,
 })
 sr.reveal('#app .image, #app .text', {
-  duration: 700,
+  duration: 600,
 })
 sr.reveal('#testimonials header, #testimonials .testimonials', {
-  duration: 700,
+  duration: 600,
 })
 sr.reveal('#contact .text, #contact .links', {
-  duration: 700,
+  duration: 600,
 })
 sr.reveal('#footer .brand, #footer .social', {
-  duration: 700,
+  duration: 600,
 })
 
 function changeHeaderWhenScroll() {

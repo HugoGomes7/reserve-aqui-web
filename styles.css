@@ -19,6 +19,9 @@
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
 
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans serif;
+
 }
 
 html {
@@ -26,12 +29,13 @@ html {
 }
 
 body {
+  font: 400 var(--subtitle-font-size) var(--body-font);
   background-color: var(--body-color);
   -webkit-font-smoothing: antialiased;
 }
 
 .title {
-  font: 700 1.8rem 'Poppins', sans-serif;
+  font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
@@ -94,7 +98,7 @@ body {
 }
 
 .logo {
-  font: 600 1.8rem 'Poppins', sans-serif;
+  font: 600 var(--title-font-size) var(--title-font);
   text-decoration: none;
   color: var(--title-color);
 }
@@ -216,7 +220,7 @@ img {
   border-radius: 0.25rem;
   color: var(--text-color-light);
   background-color: var(--primary-color);
-  font: 500 1rem 'DM Sans', sans-serif;
+  font: 500 var(--subtitle-font-size) var(--body-font);
 }
 
 .button:hover {
@@ -286,7 +290,7 @@ img {
 }
 
 #home .text p {
-  font-family: 400 1rem 'DM Sans', sans-serif;
+  font-family: 400 var(--subtitle-font-size) var(--body-font);
   margin-bottom: 3rem;
   color: var(--second-text-color);
 }
@@ -324,7 +328,6 @@ img {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-
 
 .card .title {
   font-size: 1.5rem;
@@ -377,7 +380,7 @@ img {
 }
 
 #app .text ul li {
-  font-family: 400 1rem 'DM Sans', sans-serif;
+  font-family: 400 var(--subtitle-font-size) var(--body-font);
   margin-bottom: 1rem;
   color: var(--second-text-color);
   text-align: left;
@@ -518,7 +521,7 @@ footer .icon-footer .icon {
 
 footer .brand p {
   color: var(--text-color-light);
-  font: 400 1rem 'DM Sans', sans-serif;
+  font: 400 var(--subtitle-font-size) var(--body-font);
   margin-bottom: 0.75rem;
 }
 

@@ -1,4 +1,54 @@
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    padding: 8rem 0;
+  }
+
+  .button {
+    height: 3.125rem;
+  }
+
+  nav .menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+  }
+
+  nav .menu ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  nav .menu li a.title {
+    font: 400 1rem (var(--title-font-size)) var(--body-font);
+  }
+
+  nav .icon-open {
+    display: none;
+  }
+
+  #home .container {
+    grid-auto-flow: column;
+    width: fit-content;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  #home .image {
+    order: 1;
+  }
+
+  #home .text {
+    order: 0;
+    text-align: left;
+  }
+
+}
 
 @media (min-width: 992px) {
   :root {

@@ -16,6 +16,9 @@
 
   --header-height: 4.5rem;
 
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+
 }
 
 html {
@@ -61,6 +64,10 @@ body {
 
 .section .title {
   margin-bottom: 1rem;
+}
+
+.section .subtitle {
+  font-size: var(--subtitle-font-size);
 }
 
 .section header {
@@ -170,6 +177,7 @@ nav.show .menu ul {
 nav.show ul.grid {
   gap: 4rem;
 }
+
 
 .toggle {
   color: var(--primary-color);

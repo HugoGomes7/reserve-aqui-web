@@ -66,6 +66,7 @@
     margin-right: auto;
   }
 
+<<<<<<< HEAD
   #contact .container {
     grid-auto-flow: column;
     align-items: center;
@@ -100,6 +101,8 @@
   }
 
 
+=======
+>>>>>>> af971fabaeaf77d76350dda6d7774e187de6dcc0
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
